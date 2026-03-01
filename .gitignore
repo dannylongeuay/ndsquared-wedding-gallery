@@ -4,3 +4,28 @@ result-*
 
 # Ignore automatically generated direnv output
 .direnv
+
+# Dependencies
+node_modules
+
+# SvelteKit
+.output
+.vercel
+.netlify
+.wrangler
+/.svelte-kit
+/build
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.*
+!.env.example
+!.env.test
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*

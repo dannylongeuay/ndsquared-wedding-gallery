@@ -1,0 +1,12 @@
+node_modules
+.svelte-kit
+build
+.git
+.gitignore
+.direnv
+.claude
+.vscode
+PLAN.md
+README.md
+LICENSE
+*.md
