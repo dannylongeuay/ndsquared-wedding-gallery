@@ -25,7 +25,7 @@
 
 <figure>
 	<!-- svelte-ignore a11y_media_has_caption -->
-	<video bind:this={videoEl} {src} autoplay muted loop controls preload="metadata" playsinline></video>
+	<video bind:this={videoEl} {src} autoplay muted loop preload="metadata" playsinline></video>
 </figure>
 
 <style>
