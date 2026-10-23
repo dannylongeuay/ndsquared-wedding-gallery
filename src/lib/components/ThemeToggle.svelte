@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { getTheme, toggleTheme } from '$lib/stores/theme.svelte';
+	import { getTheme, toggleTheme } from '#lib/stores/theme.svelte.ts';
 </script>
 
 <button onclick={toggleTheme} aria-label="Toggle theme">

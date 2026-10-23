@@ -1,6 +1,6 @@
 <script lang="ts">
-	import Gallery from '$lib/components/Gallery.svelte';
-	import { photoUrls } from '$lib/config/media';
+	import Gallery from '#lib/components/Gallery.svelte';
+	import { photoUrls } from '#lib/config/media.ts';
 </script>
 
 <h1>Photos</h1>

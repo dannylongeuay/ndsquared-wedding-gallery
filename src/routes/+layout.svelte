@@ -1,9 +1,9 @@
 <script lang="ts">
 	import '../app.css';
-	import Nav from '$lib/components/Nav.svelte';
-	import { initTheme } from '$lib/stores/theme.svelte';
+	import Nav from '#lib/components/Nav.svelte';
+	import { initTheme } from '#lib/stores/theme.svelte.ts';
 	import { onMount } from 'svelte';
-	import favicon from '$lib/assets/favicon.svg';
+	import favicon from '#lib/assets/favicon.svg';
 
 	let { children } = $props();
 

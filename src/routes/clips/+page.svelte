@@ -1,6 +1,6 @@
 <script lang="ts">
-	import ClipGallery from '$lib/components/ClipGallery.svelte';
-	import { clipUrls } from '$lib/config/media';
+	import ClipGallery from '#lib/components/ClipGallery.svelte';
+	import { clipUrls } from '#lib/config/media.ts';
 </script>
 
 <h1>Clips</h1>
